@@ -22,7 +22,7 @@ const sections = document.querySelectorAll("main section");
 window.addEventListener("scroll", () => {
   let current = "";
   sections.forEach(section => {
-    const sectionTop = section.offsetTop - 80;
+    const sectionTop = section.offsetTop - 100;
     if (pageYOffset >= sectionTop) {
       current = section.querySelector("h2").innerText;
     }
