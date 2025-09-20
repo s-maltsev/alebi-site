@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Спортивный клуб</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="images/ALEBI logo.jpeg" height="50"></div>
+    <div class="section-title" id="section-title">Приветствие</div>
+  </header>
+
+  <main>
+    <section id="welcome">
+      <h2>Приветствие</h2>
+      <p>Добро пожаловать в лыжно-биатлонный клуб ALEBI!</p>
+	  <p>Команда ALEBI — это любители биатлона и лыжных гонок, объединённые страстью к спорту и активному отдыху. Мы тренируемся, участвуем в стартах и выезжаем на иногородние соревнования, совмещая спорт с общением и поддержкой.</p>
+	  <p>ALEBI - в движении к победе!</p>
+
+    </section>
+
+    <section id="news">
+      <h2>Новости</h2>
+      <div class="tabs">
+        <button class="tab active" data-target="news1">Новости</button>
+        <button class="tab" data-target="news2">Соревнования</button>
+      </div>
+      <div class="tab-content active" id="news1">
+        <p>Последние новости клуба...</p>
+      </div>
+      <div class="tab-content" id="news2">
+        <p>Информация о соревнованиях...</p>
+      </div>
+    </section>
+
+    <section id="team">
+      <h2>Команда</h2>
+      <div class="tabs">
+        <button class="tab active" data-target="team1">Миссия и ценности</button>
+        <button class="tab" data-target="team2">Спортсмены</button>
+        <button class="tab" data-target="team3">Тренер</button>
+      </div>
+      <div class="tab-content active" id="team1">
+        <p>Наша миссия — развивать спорт.</p>
+      </div>
+      <div class="tab-content" id="team2">
+        <p>Состав спортсменов клуба...</p>
+      </div>
+      <div class="tab-content" id="team3">
+        <p>Наш тренер — опытный специалист.</p>
+      </div>
+    </section>
+
+    <section id="training">
+      <h2>Тренировки</h2>
+      <div class="tabs">
+        <button class="tab active" data-target="train1">Расписание</button>
+        <button class="tab" data-target="train2">Цены</button>
+        <button class="tab" data-target="train3">Записаться</button>
+      </div>
+      <div class="tab-content active" id="train1">
+        <p>Мы тренируемся вечером в будни и по выходным. Выбирай удобный день и приходи на занятие!</p>
+      </div>
+      <div class="tab-content" id="train2">
+     
+		<table>
+		<tr><td colspan=2>Индивидуальная тренировка</td></tr>
+		<tr><td>Биатлон (60 мин)</td><td>4000 руб/час</td></tr>
+		<tr><td>Лыжи / бег / функциональная тренировка (60 мин)</td><td>3500 руб/час</td></tr>
+		<tr><td colspan=2>Групповая тренировка</td></tr>
+		<tr><td>Биатлон / лыжи / бег / функциональная тренировка (1 - 1,5 ч)</td><td>1800 руб/час</td></tr>
+		</table>
+
+      </div>
+      <div class="tab-content" id="train3">
+        <p>Наши занятия проходят на лучших лыжных трассах города. Запишись на занятие прямо сейчас и окунись в атмосферу команды! Форма записи на тренировку...</p>
+      </div>
+    </section>
+
+    <section id="contacts">
+      <h2>Контакты</h2>
+	  <p></p>
+      <p>Email: info@sportclub.ru</p>
+      <center><a href=""><img src="images/whatsapp.png"></a>&nbsp;<a href=""><img src="images/instagram.png"></a>&nbsp;<a href=""><img height=35 src="images/telegram.png"></a></center>
+    
+    </section>
+  </main>
+
+  <nav class="bottom-menu">
+    <a href="#welcome">🏛</a>
+    <a href="#news">📰</a>
+    <a href="#team">🤸‍♂️</a>
+    <a href="#training">💪</a>
+    <a href="#contacts">✉</a>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
